@@ -12,7 +12,7 @@
 			.{.structure = "cubyz:void_formation/variant/7", .chance = 0.7},
 			.{.structure = "cubyz:void_formation/variant/8", .chance = 0.7},
 			.{.structure = "cubyz:void_formation/variant/9", .chance = 0.7},
-			.{.structure = "cubyz:void_formation/variant/lotus", .chance = 0.04},
+			.{.structure = "cubyz:void_formation/variant/lotus", .chance = 0.008},
 		},
 	},
 }
