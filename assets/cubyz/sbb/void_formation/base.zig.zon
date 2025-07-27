@@ -1,0 +1,14 @@
+.{
+	.blueprint = "cubyz:void_formation/base",
+	.children = .{
+		.white = .{
+			.{.structure = "cubyz:void_formation/variant/0", .chance = 1},
+			.{.structure = "cubyz:void_formation/variant/1", .chance = 0.9},
+			.{.structure = "cubyz:void_formation/variant/2", .chance = 0.8},
+			.{.structure = "cubyz:void_formation/variant/3", .chance = 0.7},
+			.{.structure = "cubyz:void_formation/variant/4", .chance = 0.6},
+			.{.structure = "cubyz:void_formation/variant/5", .chance = 0.3},
+			.{.structure = "cubyz:void_formation/variant/6", .chance = 0.2},
+		},
+	},
+}

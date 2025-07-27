@@ -7,6 +7,7 @@
 	.caveRadiusFactor = -1,
 	.caves = 0.5,
 
+	.stoneBlock = "cubyz:void_stone",
 	.music = "cubyz:heart-of-the-beast",
 
 	.structures = .{
@@ -25,17 +26,8 @@
 			.height_variation = 0,
 		},
 		.{
-			.id = "cubyz:ground_patch",
-			.block = "cubyz:gravel",
-			.chance = 0.064,
-			.width = 5,
-			.variation = 5,
-			.depth = 3,
-			.smoothness = 0.1,
-		},
-		.{
 			.id = "cubyz:stalagmite",
-			.block = "cubyz:stone",
+			.block = "cubyz:void_stone",
 			.chance = 0.048,
 			.size = 3,
 			.size_variation = 6,
@@ -43,16 +35,15 @@
 		.{
 			.id = "cubyz:boulder",
 			.chance = 0.016,
-			.block = "cubyz:cobblestone",
-			.size = 4,
-			.size_variance = 3,
-		},
-		.{
-			.id = "cubyz:boulder",
-			.chance = 0.016,
-			.block = "cubyz:stone",
+			.block = "cubyz:void_stone",
 			.size = 4,
 			.size_variance = 4,
+		},
+		.{
+			.id = "cubyz:sbb",
+			.structure = "cubyz:void_formation/base",
+			.placeMode = .degradable,
+			.chance = 0.15,
 		},
 	},
 }
