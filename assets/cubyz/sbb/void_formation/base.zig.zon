@@ -9,6 +9,10 @@
 			.{.structure = "cubyz:void_formation/variant/4", .chance = 0.6},
 			.{.structure = "cubyz:void_formation/variant/5", .chance = 0.3},
 			.{.structure = "cubyz:void_formation/variant/6", .chance = 0.2},
+			.{.structure = "cubyz:void_formation/variant/7", .chance = 0.7},
+			.{.structure = "cubyz:void_formation/variant/8", .chance = 0.7},
+			.{.structure = "cubyz:void_formation/variant/9", .chance = 0.7},
+			.{.structure = "cubyz:void_formation/variant/lotus", .chance = 0.04},
 		},
 	},
 }
