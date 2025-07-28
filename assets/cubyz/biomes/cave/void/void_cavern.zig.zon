@@ -8,4 +8,19 @@
 
 	.music = "cubyz:heart-of-the-beast",
 	.stoneBlock = "cubyz:void_stone",
+	.structures = .{
+		.{
+			.id = "cubyz:boulder",
+			.chance = 0.016,
+			.block = "cubyz:void_stone",
+			.size = 4,
+			.size_variance = 2,
+		},
+		.{
+			.id = "cubyz:sbb",
+			.structure = "cubyz:void_formation/base",
+			.placeMode = .degradable,
+			.chance = 0.4,
+		},
+	},
 }

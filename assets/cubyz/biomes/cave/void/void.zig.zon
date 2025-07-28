@@ -8,5 +8,10 @@
 	.caves = 1,
 	.music = "cubyz:heart-of-the-beast",
 
-	.structures = .{},
+	.structures = .{.{
+			.id = "cubyz:sbb",
+			.structure = "cubyz:void_formation/base",
+			.placeMode = .degradable,
+			.chance = 0.4,
+		},},
 }
