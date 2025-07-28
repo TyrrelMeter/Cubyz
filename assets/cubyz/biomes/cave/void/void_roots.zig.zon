@@ -43,7 +43,7 @@
 			.id = "cubyz:sbb",
 			.structure = "cubyz:void_formation/base",
 			.placeMode = .degradable,
-			.chance = 0.4,
+			.chance = 0.5,
 		},
 	},
 }
