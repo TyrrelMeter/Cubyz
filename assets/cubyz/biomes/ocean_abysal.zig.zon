@@ -37,11 +37,7 @@
 			.smoothness = 0.2,
 		},
 		.{
-			.id = "cubyz:vents/vent",
-			.chance = 0.008,
-		},
-		.{
-			.id = "cubyz:vents/large/large_vent",
+			.id = "cubyz:vent",
 			.chance = 0.008,
 		},
 	},

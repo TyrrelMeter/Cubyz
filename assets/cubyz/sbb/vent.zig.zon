@@ -1,0 +1,14 @@
+.{
+	.blueprints = .{
+		.{.id = "cubyz:vents/vent_0", .chance = 1},
+		.{.id = "cubyz:vents/vent_1", .chance = 1},
+		.{.id = "cubyz:vents/vent_2", .chance = 1},
+		.{.id = "cubyz:vents/vent_3", .chance = 1},
+		.{.id = "cubyz:vents/vent_4", .chance = 1},
+		.{.id = "cubyz:vents/vent_5", .chance = 1},
+		.{.id = "cubyz:vents/vent_6", .chance = 1},
+		.{.id = "cubyz:vents/large/large_vent_0", .chance = 0.05},
+		.{.id = "cubyz:vents/large/large_vent_1", .chance = 0.05},
+		.{.id = "cubyz:vents/large/large_vent_2", .chance = 0.05},
+	},
+}
