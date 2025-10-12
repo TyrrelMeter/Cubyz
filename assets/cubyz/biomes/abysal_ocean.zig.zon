@@ -9,8 +9,8 @@
 
 	.radius = 500,
 
-	.roughness = 10,
-	.hills = 25,
+	.roughness = 5,
+	.hills = 15,
 
 	.music = "cubyz:under_the_water_sky",
 
@@ -20,12 +20,12 @@
 	.structures = .{
 		.{
 			.id = "cubyz:ground_patch",
-			.block = "cubyz:moss:cubyz:magma",
-			.chance = 0.016,
-			.width = 6,
-			.variation = 2,
-			.depth = 2,
-			.smoothness = 0.2,
+			.block = "cubyz:magma",
+			.chance = 0.008,
+			.width = 3,
+			.variation = 6,
+			.depth = 3,
+			.smoothness = 0.1,
 		},
 		.{
 			.id = "cubyz:ground_patch",
