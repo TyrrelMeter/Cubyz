@@ -7,10 +7,10 @@
 	.maxHeightLimit = -400,
 	.smoothBeaches = false,
 
-	.radius = 500,
+	.radius = 300,
 
 	.roughness = 5,
-	.hills = 15,
+	.hills = 10,
 
 	.music = "cubyz:under_the_water_sky",
 
@@ -30,22 +30,23 @@
 		.{
 			.id = "cubyz:ground_patch",
 			.block = "cubyz:gravel",
-			.chance = 0.032,
+			.chance = 0.048,
 			.width = 6,
 			.variation = 2,
 			.depth = 2,
 			.smoothness = 0.2,
 		},
 		.{
-			.id = "cubyz:vent",
-			.chance = 0.008,
+			.id = "cubyz:sbb",
+			.structure = "cubyz:vent",
+			.chance = 0.032,
 		},
 	},
 	.transitionBiomes = .{
 		.{
-			.id = "cubyz:ocean_shelf",
+			.id = "cubyz:ocean_slope",
 			.chance = 1,
-			.width = 2,
+			.width = 3,
 			.properties = .{.land, .inland},
 		},
 	},

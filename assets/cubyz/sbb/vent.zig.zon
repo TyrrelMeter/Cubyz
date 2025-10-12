@@ -7,8 +7,8 @@
 		.{.id = "cubyz:vents/vent_4", .chance = 1},
 		.{.id = "cubyz:vents/vent_5", .chance = 1},
 		.{.id = "cubyz:vents/vent_6", .chance = 1},
-		.{.id = "cubyz:vents/large/large_vent_0", .chance = 0.05},
-		.{.id = "cubyz:vents/large/large_vent_1", .chance = 0.05},
-		.{.id = "cubyz:vents/large/large_vent_2", .chance = 0.05},
+		.{.id = "cubyz:vents/large/large_vent_0", .chance = 0.3},
+		.{.id = "cubyz:vents/large/large_vent_1", .chance = 0.3},
+		.{.id = "cubyz:vents/large/large_vent_2", .chance = 0.3},
 	},
 }
