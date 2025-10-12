@@ -1,0 +1,7 @@
+.{
+	.blueprints = .{
+		.{.id = "cubyz:vents/large_vent_0"},
+		.{.id = "cubyz:vents/large_vent_1"},
+		.{.id = "cubyz:vents/large_vent_2"},
+	},
+}
