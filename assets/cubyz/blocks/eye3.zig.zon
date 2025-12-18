@@ -13,7 +13,7 @@
 	},
 	.rotation = "cubyz:ore",
 	.model = "cubyz:cube",
-	.texture = "cubyz:eye",
+	.texture = "cubyz:eye3",
 	.item = .{
 		.texture = "cubyz:eyes",
 	},
