@@ -14,4 +14,5 @@
 	.rotation = "cubyz:ore",
 	.model = "cubyz:cube",
 	.texture = "cubyz:eye_RU",
+	.emittedLight = 0x961b1e,
 }
