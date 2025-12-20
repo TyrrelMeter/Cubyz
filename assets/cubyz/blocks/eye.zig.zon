@@ -14,7 +14,4 @@
 	.rotation = "cubyz:ore",
 	.model = "cubyz:cube",
 	.texture = "cubyz:eye",
-	.item = .{
-		.texture = "cubyz:eyes",
-	},
 }
