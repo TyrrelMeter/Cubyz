@@ -1,0 +1,17 @@
+.{
+	.tags = .{.mineable},
+	.blockHealth = 999,
+	.blockResistance = 999,
+	.ore = .{
+		.veins = 1.5,
+		.size = 15,
+		.height = -1500,
+		.density = 0.4,
+	},
+	.drops = .{
+		.{.items = .{.auto}},
+	},
+	.rotation = "cubyz:ore",
+	.model = "cubyz:cube",
+	.texture = "cubyz:RB_blink",
+}

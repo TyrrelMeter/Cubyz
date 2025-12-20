@@ -1,0 +1,6 @@
+.{
+	.fogDensity = 0.02,
+	.fogColor = 0x203860,
+	.frames = 9,
+	.time = 400,
+}
