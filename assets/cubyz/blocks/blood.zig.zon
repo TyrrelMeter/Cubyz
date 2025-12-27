@@ -8,7 +8,7 @@
 	.hasBackFace = true,
 	.collide = false,
 	.absorbedLight = 0xff0000,
-	.density = 0.998,
+	.density = 0.999,
 	.terminalVelocity = 0.7,
 	.mobility = 0.2,
 	.model = "cubyz:cube",
