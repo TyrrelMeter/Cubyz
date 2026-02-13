@@ -1,0 +1,17 @@
+.{
+	.isCave = true,
+	.chance = 1,
+	.maxHeight = -35000,
+	.minHeight = -48250,
+	.music = "cubyz:cubyz",
+	.stoneBlock = "cubyz:voidstone/base",
+
+	.structures = .{
+		.{
+			.id = "cubyz:sbb",
+			.structure = "cubyz:abyssal_ruins/ruins",
+			.placeMode = .degradable,
+			.chance = 0.2,
+		},
+	},
+}

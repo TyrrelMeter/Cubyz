@@ -1,0 +1,10 @@
+.{
+	.blueprints = .{
+		.{.id = "cubyz:abyssal_ruins/ruins/0"},
+		.{.id = "cubyz:abyssal_ruins/ruins/1"},
+		.{.id = "cubyz:abyssal_ruins/ruins/2"},
+		.{.id = "cubyz:abyssal_ruins/ruins/3"},
+		.{.id = "cubyz:abyssal_ruins/ruins/4"},
+		.{.id = "cubyz:abyssal_ruins/ruins/5"},
+	},
+}
