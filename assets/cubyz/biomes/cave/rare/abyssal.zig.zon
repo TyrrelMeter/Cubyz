@@ -1,6 +1,6 @@
 .{
 	.isCave = true,
-	.chance = 1,
+	.chance = 0.01,
 	.maxHeight = -35000,
 	.minHeight = -48250,
 	.music = "cubyz:cubyz",
