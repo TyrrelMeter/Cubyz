@@ -11,7 +11,7 @@
 			.id = "cubyz:sbb",
 			.structure = "cubyz:abyssal_ruins/ruins",
 			.placeMode = .degradable,
-			.chance = 0.2,
+			.chance = 0.1,
 		},
 	},
 }
