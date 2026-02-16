@@ -10,8 +10,13 @@
 		.{
 			.id = "cubyz:sbb",
 			.structure = "cubyz:abyssal_ruins/ruins",
+			.chance = 0.02,
+		},
+		.{
+			.id = "cubyz:sbb",
+			.structure = "cubyz:abyssal_ruins/lamp",
 			.placeMode = .degradable,
-			.chance = 0.05,
+			.chance = 0.004,
 		},
 	},
 }
