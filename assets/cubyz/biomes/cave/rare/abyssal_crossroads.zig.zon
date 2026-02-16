@@ -3,7 +3,9 @@
 	.chance = 10,
 	.maxHeight = -35000,
 	.minHeight = -48250,
-	.caves = -0.03,
+	.fogDensity = 63,
+	.fogColor = 0x000000,
+	.caves = -0.05,
 	.music = "cubyz:cubyz",
 	.stoneBlock = "cubyz:voidstone/base",
 
@@ -11,18 +13,24 @@
 		.{
 			.id = "cubyz:sbb",
 			.structure = "cubyz:abyssal_ruins/ruins",
-			.chance = 0.01,
+			.chance = 0.013,
 		},
 		.{
 			.id = "cubyz:sbb",
 			.structure = "cubyz:abyssal_ruins/lamp",
 			.placeMode = .degradable,
-			.chance = 0.004,
+			.chance = 0.003,
+		},
+		.{
+			.id = "cubyz:sbb",
+			.structure = "cubyz:abyssal_ruins/lighthouse",
+			.placeMode = .degradable,
+			.chance = 0.00015,
 		},
 		.{
 			.id = "cubyz:stalagmite",
 			.block = "cubyz:voidstone/base",
-			.chance = 0.048,
+			.chance = 0.064,
 			.size = 3,
 			.size_variation = 6,
 		},
