@@ -6,7 +6,7 @@
 	.maxHeightLimit = 2048,
 	.smoothBeaches = true,
 	.roughness = 999,
-	.hills = 999,
+	.hills = 9,
 	.mountains = 9999,
 	.crystals = 32,
 	.chance = 0.05,
@@ -15,14 +15,17 @@
 	.ground_structure = .{
 		"cubyz:grass",
 		"2 to 3 cubyz:soil",
+		"cubyz:grass",
+		"7 to 9 cubyz:slate/base",
+		"cubyz:glow_crystal/violet",
 	},
 	.structures = .{
 		.{
 			.id = "cubyz:boulder",
-			.chance = 0.0002,
+			.chance = 0.2,
 			.block = "cubyz:slate/base",
 			.size = 5,
-			.size_variance = 1,
+			.size_variance = 12,
 		},
 		.{
 			.id = "cubyz:flower_patch",
@@ -62,16 +65,23 @@
 			.id = "cubyz:sbb",
 			.structure = "cubyz:simple_tree/tree",
 			.placeMode = .degradable,
-			.chance = 0.2,
+			.chance = 200,
 		},
 	},
 	.caveModels = .{
 		.{
 			.id = "cubyz:hemisphere",
-			.minAmount = 50,
-			.maxAmount = 100,
-			.minRadius = 16,
-			.maxRadius = 32,
+			.minAmount = 200,
+			.maxAmount = 400,
+			.minRadius = 32,
+			.maxRadius = 80,
+		},
+		.{
+			.id = "cubyz:hemisphere",
+			.minAmount = 800,
+			.maxAmount = 1600,
+			.minRadius = 1,
+			.maxRadius = 3,
 		},
 	},
 }
