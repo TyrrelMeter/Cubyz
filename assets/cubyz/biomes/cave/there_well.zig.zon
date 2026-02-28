@@ -1,0 +1,20 @@
+.{
+	.isCave = true,
+	.maxHeight = 100,
+	.chance = 2,
+	.minHeight = -60000,
+	.fogDensity = 2,
+	.caveNoiseStrength = 0,
+	.music = "cubyz:heart-of-the-beast",
+	.caveModels = .{
+		.{
+			.id = "cubyz:cylinder",
+			.minAmount = 1,
+			.maxAmount = 1,
+			.minRadius = 0.5,
+			.maxRadius = 0.5,
+			.minHeight = 40000,
+			.maxHeight = 80000,
+		},
+	},
+}
