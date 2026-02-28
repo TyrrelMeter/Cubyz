@@ -1,7 +1,7 @@
 .{
 	.isCave = true,
 	.maxHeight = 100,
-	.chance = 2,
+	.chance = 0.01,
 	.minHeight = -60000,
 	.fogDensity = 2,
 	.caveNoiseStrength = 0,
