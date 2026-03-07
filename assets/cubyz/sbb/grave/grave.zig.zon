@@ -1,0 +1,17 @@
+.{
+	.blueprints = .{
+		.{.id = "cubyz:grave/grave/0"},
+		.{.id = "cubyz:grave/grave/1"},
+		.{.id = "cubyz:grave/grave/2"},
+		.{.id = "cubyz:grave/grave/3"},
+		.{.id = "cubyz:grave/grave/4"},
+		.{.id = "cubyz:grave/grave/5"},
+		.{.id = "cubyz:grave/grave/6"},
+		.{.id = "cubyz:grave/grave/7"},
+		.{.id = "cubyz:grave/grave/8"},
+		.{.id = "cubyz:grave/grave/9"},
+		.{.id = "cubyz:grave/grave/10"},
+		.{.id = "cubyz:grave/grave/11"},
+		.{.id = "cubyz:grave/grave/12"},
+	},
+}
