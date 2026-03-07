@@ -1,22 +1,28 @@
 .{
 	.properties = .{},
-	.minHeightLimit = 7,
+	.minHeightLimit = 50,
 	.minHeight = 60,
 	.maxHeight = 80,
 	.maxHeightLimit = 90,
 	.smoothBeaches = true,
-	.minRadius = 128,
-	.maxRadius = 256,
+	.minRadius = 64,
+	.maxRadius = 128,
 	.roughness = 5,
 	.hills = 15,
 	.chance = 0.01,
 	.music = "cubyz:sunrise",
-	.validPlayerSpawn = true,
 	.ground_structure = .{
 		"cubyz:grass",
 		"3 to 5 cubyz:soil",
 	},
 	.structures = .{
+		.{
+			.id = "cubyz:boulder",
+			.chance = 0.0004,
+			.block = "cubyz:slate/base",
+			.size = 5,
+			.size_variance = 2,
+		},
 		.{
 			.id = "cubyz:sbb",
 			.structure = "cubyz:grave/grave",
