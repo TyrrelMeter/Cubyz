@@ -1,0 +1,14 @@
+.{
+	.blueprints = .{
+		.{.id = "cubyz:sky/ruins/0", .chance = 0.25},
+		.{.id = "cubyz:sky/ruins/1", .chance = 0.25},
+		.{.id = "cubyz:sky/ruins/2", .chance = 0.25},
+		.{.id = "cubyz:sky/ruins/3", .chance = 0.25},
+		.{.id = "cubyz:sky/ruins/4", .chance = 0.25},
+		.{.id = "cubyz:sky/ruins/5", .chance = 0.25},
+		.{.id = "cubyz:sky/ruins/6", .chance = 0.25},
+		.{.id = "cubyz:sky/ruins/7", .chance = 0.25},
+		.{.id = "cubyz:sky/ruins/8", .chance = 0.25},
+		.{.id = null, .chance = 1.4},
+	},
+}
