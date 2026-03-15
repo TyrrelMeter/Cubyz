@@ -1,0 +1,36 @@
+.{
+	.isCave = true,
+	.maxHeight = -50000,
+	.chance = 0.01,
+
+	.crystals = 32,
+
+	.music = "cubyz:leaves",
+
+	.stoneBlock = "cubyz:slate/base",
+	.ground_structure = .{
+		"cubyz:grass",
+		"2 to 3 cubyz:soil",
+	},
+	.structures = .{
+		.{
+			.id = "cubyz:simple_tree",
+			.leaves = "cubyz:leaves/oak",
+			.log = "cubyz:root_log",
+			.top = "cubyz:root_log",
+			.chance = 0.32,
+			.type = .round,
+			.height = 4,
+			.height_variation = 2,
+		},
+	},
+	.caveModels = .{
+		.{
+			.id = "cubyz:partial_sphere",
+			.minAmount = 10,
+			.maxAmount = 20,
+			.minRadius = 20,
+			.maxRadius = 30,
+		},
+	},
+}
