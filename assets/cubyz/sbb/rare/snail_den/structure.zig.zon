@@ -1,10 +1,10 @@
 .{
 	.blueprints = .{
-		.{.id = "cubyz:rare/cyclops_statue/0"},
-		.{.id = "cubyz:rare/cyclops_statue/1"},
-		.{.id = "cubyz:rare/cyclops_statue/2"},
-		.{.id = "cubyz:rare/cyclops_statue/3"},
-		.{.id = "cubyz:rare/cyclops_statue/4"},
-		.{.id = "cubyz:rare/cyclops_statue/5"},
+		.{.id = "cubyz:rare/snail_den/0"},
+		.{.id = "cubyz:rare/snail_den/1"},
+		.{.id = "cubyz:rare/snail_den/2"},
+		.{.id = "cubyz:rare/snail_den/3"},
+		.{.id = "cubyz:rare/snail_den/4"},
+		.{.id = "cubyz:rare/snail_den/5"},
 	},
 }
