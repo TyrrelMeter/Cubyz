@@ -12,7 +12,7 @@
 			.id = "cubyz:sbb",
 			.chance = 0.000005,
 			.placeMode = .all,
-			.structure = "cubyz:rare/cyclops_statue/structure",
+			.structure = "cubyz:rare/snail_den/structure",
 		},
 	},
 }
