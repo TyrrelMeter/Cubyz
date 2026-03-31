@@ -1,15 +1,16 @@
 .{
 	.properties = .{.mountain},
-	.radius = 100,
+	.radius = 120,
 	.minHeight = 300,
 	.maxHeight = 300,
-
+	.fogDensity = 60.0,
+	.fogColor = 0x000000,
 	.interpolation = .linear,
 	.mountains = 100,
 	.roughness = 5,
 	.chance = 0,
 
-	.music = "cubyz:out_of_breath",
+	.music = "cubyz:ikabodBTW/Deeper",
 
 	.parentBiomes = .{
 		.{
@@ -20,5 +21,5 @@
 
 	.maxSubBiomeCount = 1,
 
-	.stoneblock = "cubyz:chalk/black",
+	.stoneBlock = "cubyz:chalk/black",
 }

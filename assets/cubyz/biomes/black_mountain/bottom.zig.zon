@@ -1,22 +1,23 @@
 .{
 	.properties = .{.mountain},
-	.radius = 30,
+	.radius = 50,
 	.minHeight = 100,
 	.maxHeight = 100,
-
+	.fogDensity = 200.0,
+	.fogColor = 0x000000,
 	.interpolation = .linear,
 	.hills = 30,
 	.roughness = 5,
 	.chance = 0,
 
-	.music = "cubyz:out_of_breath",
+	.music = "cubyz:TotalDemented/Scoria",
 
 	.parentBiomes = .{
 		.{
-			.id = "cubyz:black_mountain/cliff",
+			.id = "cubyz:black_mountain/pit3",
 			.chance = 1,
 		},
 	},
 
-	.stoneblock = "cubyz:chalk/black",
+	.stoneBlock = "cubyz:chalk/black",
 }

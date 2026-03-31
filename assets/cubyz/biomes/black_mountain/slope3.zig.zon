@@ -1,9 +1,10 @@
 .{
 	.properties = .{.mountain},
-	.radius = 210,
+	.radius = 240,
 	.minHeight = 380,
 	.maxHeight = 380,
-
+	.fogDensity = 7.0,
+	.fogColor = 0x000000,
 	.interpolation = .linear,
 	.hills = 30,
 	.roughness = 5,
@@ -21,8 +22,8 @@
 
 	.maxSubBiomeCount = 1,
 
-	.stoneblock = "cubyz:chalk/black",
+	.stoneBlock = "cubyz:chalk/black",
 	.ground_structure = .{
-		"cubyz:obsidian/base",
+		"cubyz:obsidian",
 	},
 }

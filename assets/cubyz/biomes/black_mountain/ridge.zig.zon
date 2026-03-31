@@ -1,16 +1,15 @@
 .{
 	.properties = .{.mountain},
 	.radius = 160,
-	.minHeight = 270,
-	.maxHeight = 270,
-
+	.minHeight = 460,
+	.maxHeight = 460,
 	.interpolation = .linear,
 	.hills = 10,
 	.roughness = 5,
 
 	.chance = 0,
 
-	.music = "cubyz:out_of_breath",
+	.music = "cubyz:TotalDemented/Midnight_Melody",
 
 	.parentBiomes = .{
 		.{
@@ -21,8 +20,8 @@
 
 	.maxSubBiomeCount = 1,
 
-	.stoneblock = "cubyz:chalk/black",
+	.stoneBlock = "cubyz:chalk/black",
 	.ground_structure = .{
-		"cubyz:obsidian/base",
+		"cubyz:obsidian",
 	},
 }

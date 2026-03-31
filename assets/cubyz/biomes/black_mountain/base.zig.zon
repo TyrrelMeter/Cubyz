@@ -3,7 +3,8 @@
 	.radius = 360,
 	.minHeight = 128,
 	.maxHeight = 128,
-
+	.fogDensity = 2.0,
+	.fogColor = 0x000000,
 	.interpolation = .linear,
 	.mountains = 80,
 
@@ -19,8 +20,8 @@
 	},
 
 	.maxSubBiomeCount = 1,
-	.stoneblock = "cubyz:chalk/black",
+	.stoneBlock = "cubyz:chalk/black",
 	.ground_structure = .{
-		"cubyz:obsidian/base",
+		"cubyz:obsidian",
 	},
 }
