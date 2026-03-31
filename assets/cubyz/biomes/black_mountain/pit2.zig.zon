@@ -1,0 +1,24 @@
+.{
+	.properties = .{.mountain},
+	.radius = 100,
+	.minHeight = 300,
+	.maxHeight = 300,
+
+	.interpolation = .linear,
+	.mountains = 100,
+	.roughness = 5,
+	.chance = 0,
+
+	.music = "cubyz:out_of_breath",
+
+	.parentBiomes = .{
+		.{
+			.id = "cubyz:black_mountain/pit1",
+			.chance = 1,
+		},
+	},
+
+	.maxSubBiomeCount = 1,
+
+	.stoneblock = "cubyz:chalk/black",
+}

@@ -1,0 +1,28 @@
+.{
+	.properties = .{.mountain},
+	.radius = 260,
+	.minHeight = 300,
+	.maxHeight = 300,
+
+	.interpolation = .linear,
+	.hills = 30,
+	.roughness = 5,
+
+	.chance = 0,
+
+	.music = "cubyz:out_of_breath",
+
+	.parentBiomes = .{
+		.{
+			.id = "cubyz:black_mountain/slope1",
+			.chance = 1,
+		},
+	},
+
+	.maxSubBiomeCount = 1,
+
+	.stoneblock = "cubyz:chalk/black",
+	.ground_structure = .{
+		"cubyz:obsidian/base",
+	},
+}
