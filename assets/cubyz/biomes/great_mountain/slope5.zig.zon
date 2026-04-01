@@ -1,0 +1,80 @@
+.{
+	.properties = .{.mountain},
+	.radius = 560,
+	.minHeight = 800,
+	.maxHeight = 800,
+
+	.interpolation = .linear,
+	.mountains = 75,
+
+	.chance = 0,
+
+	.music = "cubyz:out_of_breath",
+
+	.parentBiomes = .{
+		.{
+			.id = "cubyz:great_mountain/slope4",
+			.chance = 1,
+		},
+	},
+
+	.maxSubBiomeCount = 1,
+
+	.ground_structure = .{
+		"cubyz:grass",
+		"3 to 6 cubyz:soil",
+	},
+	.structures = .{
+		.{
+			.id = "cubyz:sbb",
+			.structure = "cubyz:tree/coniferous/pine/loblolly",
+			.placeMode = .degradable,
+			.chance = 0.15,
+		},
+		.{
+			.id = "cubyz:sbb",
+			.structure = "cubyz:tree/coniferous/pine/eastern_white",
+			.placeMode = .degradable,
+			.chance = 0.15,
+		},
+		.{
+			.id = "cubyz:sbb",
+			.structure = "cubyz:tree/coniferous/pine/young_tree",
+			.placeMode = .degradable,
+			.chance = 0.1,
+		},
+		.{
+			.id = "cubyz:sbb",
+			.structure = "cubyz:tree/coniferous/standalone_roots",
+			.placeMode = .degradable,
+			.chance = 0.1,
+		},
+		.{
+			.id = "cubyz:flower_patch",
+			.blocks = .{"cubyz:bolete"},
+			.chance = 0.005,
+			.width = 8,
+			.variation = 4,
+			.density = 0.08,
+			.priority = 0.5,
+		},
+		.{
+			.id = "cubyz:flower_patch",
+			.blocks = .{"cubyz:vetch"},
+			.chance = 0.01,
+			.width = 6,
+			.variation = 3,
+			.density = 0.1,
+			.priority = 0.1,
+		},
+		.{
+			.id = "cubyz:flower_patch",
+			.blocks = .{"cubyz:trumpet_lily"},
+			.chance = 0.007,
+			.width = 8,
+			.variation = 3,
+			.density = 0.1,
+			.priority = 0.1,
+		},
+	},
+}

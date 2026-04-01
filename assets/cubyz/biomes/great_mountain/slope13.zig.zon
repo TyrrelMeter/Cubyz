@@ -1,0 +1,26 @@
+.{
+	.properties = .{.mountain},
+	.radius = 50,
+	.minHeight = 2550,
+	.maxHeight = 2550,
+
+	.interpolation = .linear,
+	.mountains = 100,
+
+	.chance = 0,
+
+	.music = "cubyz:out_of_breath",
+
+	.parentBiomes = .{
+		.{
+			.id = "cubyz:great_mountain/slope12",
+			.chance = 2,
+		},
+	},
+
+	.maxSubBiomeCount = 1,
+
+	.ground_structure = .{
+		"4 to 7 cubyz:snow",
+	},
+}
