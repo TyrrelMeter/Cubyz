@@ -1,6 +1,6 @@
 .{
 	.properties = .{.mountain},
-	.radius = 470,
+	.radius = 800,
 	.minHeight = 1000,
 	.maxHeight = 1000,
 
@@ -18,7 +18,7 @@
 		},
 	},
 
-	.maxSubBiomeCount = 3,
+	.maxSubBiomeCount = 2,
 
 	.ground_structure = .{
 		"cubyz:grass",

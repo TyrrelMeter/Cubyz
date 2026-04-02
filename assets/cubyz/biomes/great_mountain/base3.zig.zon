@@ -1,6 +1,6 @@
 .{
 	.properties = .{.mountain},
-	.radius = 130,
+	.radius = 170,
 	.minHeight = 2200,
 	.maxHeight = 2200,
 
@@ -18,7 +18,7 @@
 		},
 	},
 
-	.maxSubBiomeCount = 5,
+	.maxSubBiomeCount = 3,
 
 	.ground_structure = .{
 		"3 to 6 cubyz:snow",
