@@ -11,7 +11,7 @@
 	.smoothBeaches = true,
 	.roughness = 1,
 	.hills = 5,
-	.chance = 1,
+	.chance = 0.01,
 	.fogDensity = 10.0,
 	.fogColor = 0x5c2222,
 	.skyColor = 0x5c2222,
