@@ -9,7 +9,7 @@
 	.smoothBeaches = true,
 	.chance = 0,
 	.music = "cubyz:in_the_depths",
-	.fogDensity = 6.0,
+	.fogDensity = 10.0,
 	.fogColor = 0x5c2222,
 	.skyColor = 0x5c2222,
 	.stoneBlock = "cubyz:lava",
