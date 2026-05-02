@@ -1,8 +1,8 @@
 .{
 	.properties = .{.mountain},
 	.radius = 35,
-	.minHeight = 900,
-	.maxHeight = 900,
+	.minHeight = 890,
+	.maxHeight = 890,
 
 	.interpolation = .smooth,
 	.chance = 0,
