@@ -1,20 +1,19 @@
 .{
 	.properties = .{.mountain},
-	.radius = 230,
-	.minHeight = 480,
-	.maxHeight = 480,
-	.roughness = 50,
-	.mountains = 100,
+	.radius = 70,
+	.minHeight = 1000,
+	.maxHeight = 1000,
+	.roughness = 20,
+	.mountains = 30,
 
 	.interpolation = .linear,
-
 	.chance = 0,
 
 	.music = "cubyz:out_of_breath",
 
 	.parentBiomes = .{
 		.{
-			.id = "cubyz:volcano/slope2",
+			.id = "cubyz:volcano/slope6",
 			.chance = 1,
 			.parentEdgeDistance = 16,
 		},
@@ -22,5 +21,8 @@
 
 	.maxSubBiomeCount = 1,
 
+	.ground_structure = .{
+		"8 to 10 cubyz:magma",
+	},
 	.stoneBlock = "cubyz:basalt/base",
 }

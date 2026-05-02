@@ -1,9 +1,9 @@
 .{
 	.properties = .{.mountain},
-	.radius = 220,
-	.minHeight = 384,
-	.maxHeight = 384,
-	.mountains = 50,
+	.radius = 280,
+	.minHeight = 320,
+	.maxHeight = 320,
+	.mountains = 120,
 
 	.interpolation = .linear,
 

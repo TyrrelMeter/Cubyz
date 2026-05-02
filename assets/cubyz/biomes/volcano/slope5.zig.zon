@@ -1,10 +1,10 @@
 .{
 	.properties = .{.mountain},
-	.radius = 100,
-	.minHeight = 672,
-	.maxHeight = 672,
+	.radius = 140,
+	.minHeight = 860,
+	.maxHeight = 860,
 	.roughness = 100,
-	.mountains = 50,
+	.mountains = 60,
 
 	.interpolation = .linear,
 	.chance = 0,
@@ -22,7 +22,7 @@
 	.maxSubBiomeCount = 1,
 
 	.ground_structure = .{
-		"0 to 10 cubyz:magma",
+		"0 to 3 cubyz:magma",
 	},
 	.stoneBlock = "cubyz:basalt/base",
 }

@@ -1,20 +1,19 @@
 .{
 	.properties = .{.mountain},
-	.radius = 230,
-	.minHeight = 480,
-	.maxHeight = 480,
-	.roughness = 50,
-	.mountains = 100,
+	.radius = 50,
+	.minHeight = 1050,
+	.maxHeight = 1050,
+	.roughness = 10,
+	.hills = 20,
 
 	.interpolation = .linear,
-
 	.chance = 0,
 
 	.music = "cubyz:out_of_breath",
 
 	.parentBiomes = .{
 		.{
-			.id = "cubyz:volcano/slope2",
+			.id = "cubyz:volcano/slope7",
 			.chance = 1,
 			.parentEdgeDistance = 16,
 		},
