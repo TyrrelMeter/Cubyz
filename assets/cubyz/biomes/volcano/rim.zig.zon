@@ -1,6 +1,6 @@
 .{
 	.properties = .{.mountain},
-	.radius = 60,
+	.radius = 30,
 	.minHeight = 950,
 	.maxHeight = 950,
 	.roughness = 10,

@@ -1,6 +1,6 @@
 .{
 	.properties = .{.mountain},
-	.radius = 240,
+	.radius = 160,
 	.minHeight = 570,
 	.maxHeight = 570,
 	.roughness = 100,
@@ -32,18 +32,6 @@
 			.structure = "cubyz:tree/mahogany/khaya_ivorensis/small",
 			.placeMode = .degradable,
 			.chance = 0.1,
-		},
-		.{
-			.id = "cubyz:sbb",
-			.structure = "cubyz:tree/mahogany/sapele/ancient_short",
-			.placeMode = .degradable,
-			.chance = 0.004,
-		},
-		.{
-			.id = "cubyz:sbb",
-			.structure = "cubyz:tree/mahogany/sapele/ancient_tall",
-			.placeMode = .degradable,
-			.chance = 0.004,
 		},
 		.{
 			.id = "cubyz:sbb",
