@@ -1,0 +1,27 @@
+.{
+    .chance = 0,
+    .properties = .{},
+    .minHeightLimit = 7,
+    .minHeight = 80,
+    .maxHeight = 130,
+    .smoothBeaches = true,
+    .radius = 25,
+    .roughness = 15,
+    .hills = 45,
+    .fogDensity = 55,
+    .fogColor = 0x07040a,
+    .music = "cubyz:ikabod/chimes",
+
+    .validPlayerSpawn = false,
+    .stoneBlock = "cubyz:basalt/base",
+    .ground_structure = .{
+        "5 to 7 cubyz:ash",
+    },
+    .parentBiomes = .{
+        .{
+            .id = "cubyz:rare/decrepit/heart",
+            .chance = 9,
+            .parentEdgeDistance = 0,
+        },
+    },
+}

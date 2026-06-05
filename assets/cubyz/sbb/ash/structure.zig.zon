@@ -1,0 +1,15 @@
+.{
+	.blueprints = .{
+		.{.id = "cubyz:ash/0", .chance = 0.2},
+		.{.id = "cubyz:ash/1", .chance = 0.5},
+		.{.id = "cubyz:ash/2", .chance = 1},
+		.{.id = "cubyz:ash/3", .chance = 1.2},
+		.{.id = "cubyz:ash/4", .chance = 0.7},
+		.{.id = "cubyz:ash/5", .chance = 0.5},
+		.{.id = "cubyz:ash/6", .chance = 0.3},
+		.{.id = "cubyz:ash/s0", .chance = 1},
+		.{.id = "cubyz:ash/s1", .chance = 3.5},
+		.{.id = "cubyz:ash/s2", .chance = 3},
+		.{.id = "cubyz:ash/s3", .chance = 2.5},
+	},
+}

@@ -1,0 +1,33 @@
+.{
+    .chance = 0.1,
+    .properties = .{},
+    .minHeightLimit = 7,
+    .minHeight = 60,
+    .maxHeight = 80,
+    .maxHeightLimit = 70,
+    .smoothBeaches = true,
+    .fogDensity = 45,
+    .fogColor = 0x07040a,
+    .roughness = 5,
+    .hills = 15,
+    .minRadius = 280,
+    .maxRadius = 340,
+    .music = "cubyz:ikabod/chimes",
+
+    .validPlayerSpawn = false,
+    .stoneBlock = "cubyz:basalt/base",
+    .ground_structure = .{
+        "3 to 4 cubyz:ash",
+    },
+    .minSubBiomeCount = 1,
+    .maxSubBiomeCount = 2,
+    .structures = .{
+        .{
+            .id = "cubyz:boulder",
+            .chance = 0.012,
+            .block = "cubyz:ash",
+            .size = 5,
+            .size_variance = 4,
+        },
+    },
+}
