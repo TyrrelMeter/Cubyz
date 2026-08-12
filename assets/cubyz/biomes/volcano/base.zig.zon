@@ -6,7 +6,7 @@
 
 	.interpolation = .linear,
 	.mountains = 150,
-
+	.keepOriginalTerrain = 0.8,
 	.chance = 0,
 
 	.music = "cubyz:mrmayman/out_of_breath",
