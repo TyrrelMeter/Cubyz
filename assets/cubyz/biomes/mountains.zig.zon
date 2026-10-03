@@ -5,12 +5,12 @@
 	.tags = .{
 		.oak,
 	},
-	.radius = 400,
+	.radius = 700,
 	.minHeightLimit = 7,
 	.minHeight = 60,
 	.maxHeight = 256,
 	.smoothBeaches = true,
-
+	.chance = 3,
 	.roughness = 10,
 	.mountains = 100,
 
