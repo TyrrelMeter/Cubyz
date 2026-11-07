@@ -1,0 +1,9 @@
+.{
+	.tags = .{.cuttable, .sliceable, .mushroom},
+	.texture0 = "cubyz:warbeler/warbeler",
+	.texture1 = "cubyz:warbeler/warbeler",
+	.texture2 = "cubyz:warbeler/warbeler",
+	.texture3 = "cubyz:warbeler/warbeler",
+	.texture4 = "cubyz:warbeler/warbeler",
+	.texture5 = "cubyz:warbeler/warbeler",
+}
